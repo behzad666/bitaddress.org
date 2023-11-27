@@ -2,7 +2,7 @@
 Bitcoin.ECDSA = (function () {
 	var ecparams = EllipticCurve.getSECCurveByName("secp256k1");
 	var rng = new SecureRandom();
-
+444444444449
 	var P_OVER_FOUR = null;
 
 	function implShamirsTrick(P, k, Q, l) {
